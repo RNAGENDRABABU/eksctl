@@ -11,4 +11,4 @@ managedNodeGroups:
 - name: spot
   instanceTypes: ["t3.micro"]
   spot: true
-  desiredCapacity: 2
+  desiredCapacity: 3
