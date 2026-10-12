@@ -16,6 +16,4 @@ managedNodeGroups:
   instanceTypes: ["t3.micro"]
   spot: true
   desiredCapacity: 3
-  subnets:
-    - public
 
