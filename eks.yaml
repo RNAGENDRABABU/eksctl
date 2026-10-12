@@ -7,8 +7,15 @@ metadata:
   name: roboshop
   region: us-east-1
 
+vpc:
+  nat:
+    gateway: Disable  
+
 managedNodeGroups:
 - name: spot
   instanceTypes: ["t3.micro"]
   spot: true
   desiredCapacity: 3
+  subnets:
+    - public
+
